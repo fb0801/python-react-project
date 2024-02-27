@@ -1,5 +1,4 @@
-import React from "react";
-
+import React from "react"
 
 const ContactList = ({ contacts, updateContact, updateCallback }) => {
     const onDelete = async (id) => {

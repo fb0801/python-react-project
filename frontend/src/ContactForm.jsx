@@ -4,7 +4,7 @@ const ContactForm = ({ existingContact = {}, updateCallback }) => {
     const [firstName, setFirstName] = useState(existingContact.firstName || "");
     const [lastName, setLastName] = useState(existingContact.lastName || "");
     const [email, setEmail] = useState(existingContact.email || "");
-
+    
     const updating = Object.entries(existingContact).length !== 0
 
     const onSubmit = async (e) => {
