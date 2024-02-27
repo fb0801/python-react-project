@@ -13,9 +13,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-th{
-  margin: 10px;
+input, button, label {
+  margin-top: 10px;
 }
+
+
 
 a {
   font-weight: 500;
